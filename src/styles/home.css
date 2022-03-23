@@ -1,0 +1,21 @@
+.fondoHome{
+    width: 100%;
+    margin-top: 0;
+}
+
+#Search{
+    padding: 20px 10px;
+    margin-top: 50px;
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, 0.445) ;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.contenedorFondo{
+position: absolute;
+}
+.tituloForm{
+    color: white;
+
+}

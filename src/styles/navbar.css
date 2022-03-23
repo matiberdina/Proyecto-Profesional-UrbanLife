@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar:hover{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.button.is-primary.is-outlined{
+    background-color:transparent;
+    color: rgb(8, 194, 169);
+    border-color:rgb(8, 194, 169);
+}
+.button.is-primary.is-outlined:hover{
+    background-color:rgb(8, 194, 169);
+    color:white;
+    border-color: white;
+}
+
+
+.navbar-link{
+    color: white;
+}
+.navbar-item{
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+}
+
+a.navbar-item:hover{
+color:rgb(8, 194, 169);
+}
+a.navbar-link:hover{
+    color:rgb(8, 194, 169);
+    }
+.navbar-dropdown{
+    background-color: rgb(8, 194, 169);
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: rgb(8, 194, 169);
+    margin-top: -0.375em;
+    right: 1.125em;
+}
+
