@@ -5,13 +5,16 @@ import {BrowserRouter} from "react-router-dom";
 
 
 
+
+
 ReactDOM.render(
-  <BrowserRouter>
   <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
-  </BrowserRouter>,
+  </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );
+
 
 

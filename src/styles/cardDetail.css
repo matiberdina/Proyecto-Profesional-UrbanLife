@@ -1,0 +1,91 @@
+.multimediaContent{
+    margin: 70px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows: 350px;
+    grid-gap: 10px;
+    border: 1px solid black;
+
+}
+
+
+.imagen_secundaria{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.imagen_contenedor:nth-child(1) {
+    grid-column-start: span 2;
+    grid-row-start: span 2 ;
+}
+
+
+
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 50%;
+    
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+}
+
+.contenedor_map{
+    margin: 0px 70px 0px 70px;
+}
+
+.contenedor_info{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 70px 50px 70px;
+    background: #00000094;
+    color: white;
+}
+
+.contenedor_descripcion{
+    border: 1px solid black;
+    margin: 20px 70px 50px 70px;
+    background: #00000094;
+
+}
+
+.contenedor_descripcion p {
+    font-size: 20px;
+    text-align: left;
+    margin-right: 40%;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+}
+.button_contacto{
+ margin-left: 93%;
+ text-align: center;
+ display: block;
+}
+
+.price{
+    font-size: 25px;
+}
+.name{
+    font-size: 30px;
+}
+
+#botonContacto{
+    color: white;
+}
+.mapa{
+    border: 1px solid black;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.514);
+}

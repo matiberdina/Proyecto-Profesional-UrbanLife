@@ -1,0 +1,120 @@
+.form{
+    position: relative;
+    color: white;
+    max-width: 700px;
+    background-color: rgba(0,0,0,0.75);
+    padding:50px;
+    z-index: 9999;
+   margin-left: 50%;
+   margin-top: 40%;
+   margin-bottom: 5%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .form__addInput{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #E8F0FE;
+    position: relative;
+    border-radius: 5px;
+    border: none;     
+    display: block;                  
+  }
+  .form__addDescription{
+    margin-top:10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 50px;
+    width: 100%;
+    height: 90px;
+    background-color: #E8F0FE;
+    position: relative;
+    border-radius: 5px;
+    border: none;  
+    display: block; 
+
+  }
+  
+  .loginScreen__text{
+    margin-top: 10px;
+    width: 300px;
+    display: block;
+    color: white;
+  }
+  .loginScreen__direct{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top:10px;
+    color: rgb(8, 194, 169);
+  
+  }
+  .form_joinButton{
+    color: rgb(212, 209, 209);
+  }
+  
+  .form__add{
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+  }
+  .form__delete{
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+
+  }
+  
+  .guardar{
+    height:4rem;
+    width:25rem;
+    border-radius:5px;
+    background-color:rgb(8, 194, 169);
+    color: white;
+    border-color:rgb(8, 194, 169);
+    font-size:1.5rem;
+    font-weight:700;
+    cursor:pointer;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+  }
+  .form__buttonDelete{
+    border-radius:5px;
+    background-color:rgb(165, 6, 6);
+    color: white;
+    border-color:rgb(78, 20, 2);
+    font-size:16px;
+    display: block;
+    cursor:pointer;
+  }
+  .form__addImage{
+   display: block;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+
+  input:checked + label {
+    color: rgb(8, 194, 169);
+  }
+  input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px rgb(8, 194, 169);
+  }
+
+  .input_disp{
+    margin: 10px;
+  }
+  
+  .selectores{
+    margin-right: 5px;
+  }
+
+ 
+
+  

@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    gap: 20px;
+    padding: 0 50px;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+   
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b9b8a3;
+  }
+  
+  .contenedor h1 {
+    margin: 0px 1000px 0 0;
+  }
+  
+  .gridP {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    gap: 20px;
+    padding: 0 80px;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .has-text-centered {
+    text-align: center!important;
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+.sutitulo{
+  font-family: 'Comfortaa', cursive;
+  font-size: 42px;
+  padding:30px 20px 1px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  text-shadow: 4px 3px rgba(0, 0, 0, 0.514);
+  
+   
+}
+
+.sutitulo:hover{
+  color: rgb(7, 146, 128);
+  text-shadow: 4px 3px rgba(236, 232, 232, 0.514);
+}

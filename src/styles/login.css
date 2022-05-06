@@ -1,0 +1,183 @@
+html{
+  background: url(../assets/fondoCiudad.png) no-repeat center center;
+  min-height:100%;
+  background-size:cover;
+  
+}
+body{
+  height: max-content;
+}
+
+#formLogin{
+  position: relative;
+  z-index: 9999;
+  max-width: 500px;
+  margin-left: 0%;
+   margin-top: 25%;
+}
+
+.loginScreen__form{
+  position: relative;
+  color: white;
+  max-width: 500px;
+  background-color: rgba(0,0,0,0.75);
+  padding:70px;
+  z-index: 10000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form__login{
+  margin-top:30px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 50px;
+  background-color: #E8F0FE;
+  position: relative;
+  border-radius: 5px;
+  border: none;                       
+}
+
+.loginScreen__text{
+  margin-top: 10px;
+  width: 300px;
+  display: block;
+  color: white;
+}
+.loginScreen__direct{
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top:10px;
+  color: rgb(8, 194, 169);
+
+}
+.form_joinButton{
+  color: rgb(212, 209, 209);
+}
+
+.form__signin{
+  font-size: 32px;
+  font-weight: 700;
+  margin-top:45px;
+  position: relative;
+}
+
+.form__button{
+  height:10rem;
+  width:23rem;
+  border-radius:5px;
+  background-color:rgb(8, 194, 169);
+  color: white;
+  border-color:rgb(8, 194, 169);
+  font-size:16px;
+  font-weight:700;
+  cursor:pointer;
+  margin-bottom: 10px;
+  
+}
+/* .loginbuttons{
+  width: 320px;
+  height: 50px;
+  background-color: #E8F0FE;
+  position: relative;
+  border-radius: 5px;
+  border: none;
+} */
+
+
+.navbar{
+
+  height: 50px;
+  padding: 10px;
+  top: 0;
+  width: 100%;
+  transition-timing-function: ease-out;
+  transition: all 0.5s;
+  z-index: 9999;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.navbar__black {
+
+  background: black;
+
+
+}
+.logo{
+  position: fixed;
+  width: 150px;
+  object-fit: contain;
+  left: 0;
+  padding-left: 40px;
+  cursor: pointer;
+  padding-top: 5px;
+
+}
+
+.icon{
+  position: fixed;
+  width: 40px;
+  right: 20px;
+  object-fit: contain;
+  cursor: pointer;
+  
+  
+}
+
+.signinicon{
+  position: fixed;
+  width: 100px;
+  right: 20px;
+  object-fit: contain;
+  cursor: pointer;
+  padding:10px;
+  background-color: red;
+  
+}
+.google-btn {
+  width: 230px;
+  height: 42px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+}
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: white;
+  }
+  .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  .google-btn:hover {
+    box-shadow: 0 0 6px #4285f4;
+  }
+  .google-btn:active {
+    background: #1669F2;
+  }
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+

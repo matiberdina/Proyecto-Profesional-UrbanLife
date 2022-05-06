@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 
 .navbar{
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.39);
     position: fixed;
     top: 0;
     width: 100%;
 }
 .navbar:hover{
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.855);
 }
 
 .button.is-primary.is-outlined{
@@ -44,5 +44,19 @@ a.navbar-link:hover{
     border-color: rgb(8, 194, 169);
     margin-top: -0.375em;
     right: 1.125em;
+}
+
+.navbar-item img {
+    max-height: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+#botonPropiedades{
+    color: white;
+    
+}
+#botonUsuarios{
+    color: white;
+    
 }
 

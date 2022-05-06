@@ -1,0 +1,26 @@
+.contenedorTabla{
+    
+}
+
+.table{
+    border: 1px solid black;
+    position: relative;
+    padding:50px;
+    z-index: 9999;
+    margin-left: 50%;
+    margin-top: 35%;
+    margin-bottom: 2%;
+     transform: translate(-50%, -50%);
+}
+
+
+
+.table thead {
+    background-color: rgba(0,0,0,0.75);
+    
+}
+
+.table thead th{
+    color: white;
+
+}

@@ -1,0 +1,112 @@
+:root{
+  --facebook: #3b5998;
+  --instagram: 	#841288;
+  --twitter: #55acee;
+  --youtube: #bb0000;
+}
+
+#footerContenedor{
+    background-color: rgba(0, 0, 0, 0.514);
+    
+    
+    
+    
+}
+.footer{
+  height: 20rem;
+}
+
+#textoFooter{
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+footer a {
+  color: rgb(8, 194, 169)
+}
+
+.logoFooter{
+  width: 200px;
+  display: flex;
+}
+.contenedorLogoFooter{
+  display: flex;
+}
+
+
+.titulo-redes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(8, 194, 169);
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.redes-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-conteiner ul li{
+  display: inline-block;
+  margin: 0 15px;
+  width:70px;
+  height: 70px;
+  text-align: center;
+}
+
+.redes-conteiner ul li a{
+  display: block;
+  padding: 0 10px;
+  background: #333;
+  color: white;
+  line-height: 70px;
+  font-size: 30px;
+  box-shadow: 0 5px 8px 0px rgba(0, 0, 0, 0.514);
+  transition: .2s;
+}
+
+.redes-conteiner ul:hover a{
+  filter: blur(2px);
+}
+
+.redes-conteiner ul li a:hover{
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.814);
+  filter: none;
+}
+
+.redes-conteiner ul li .facebook:hover{
+  background: var(--facebook);
+}
+
+.redes-conteiner ul li .facebook:hover{
+  background: var(--facebook);
+}
+
+.redes-conteiner ul li .facebook:hover{
+  background: var(--facebook);
+}
+
+.redes-conteiner ul li .instagram:hover{
+  background: var(--instagram);
+}
+
+.redes-conteiner ul li .twitter:hover{
+  background: var(--twitter);
+}
+
+.redes-conteiner ul li .youtube:hover{
+  background: var(--youtube);
+}
+.containerQr{
+display: flex;
+}
+.codigoQr{
+  display: flex;
+  width: 80px;
+}

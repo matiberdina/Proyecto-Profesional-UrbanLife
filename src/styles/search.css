@@ -1,0 +1,95 @@
+.container {
+    max-width: 100%;
+}
+.container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 100%;
+}
+
+
+
+
+.desktop-home--30 {
+    background-image: url("../assets/fondohome.png");
+}
+
+.desktop-home__disparador {
+    margin: 10px 20px 20px 0px;
+    width: 500px;
+    font-weight: 200;
+    padding: 7px;
+    background-color: rgba(0,0,0,.5);
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+
+element.style {
+}
+.desktop-home__disparador .btn-default {
+    color: #ffffff;
+}
+.desktop-home__disparador .btn {
+    font-size: 1em;
+}
+
+.btn-naranja {
+    background-color: rgb(8, 194, 169);
+    border-color: rgb(8, 194, 169);
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#botonBuscar{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.desktop-home__disparador .react-autosuggest__input {
+    width: 400px;
+    padding: 10px 35px;
+    border-radius: 4px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: #fff;
+}
+
+.react-autosuggest__input::placeholder{
+    color: white;
+}
+
+.form__addInputSearch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    background-color: #e8f0feda;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+
+
+
