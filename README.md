@@ -2,6 +2,8 @@
 ## Objetivo
 La idea es construir una app de punta a punta , utilizando el back-end y front-end, con las tecnologías vistas en el bootcamp.
 
+<img src="public/pantalla02.png" alt="fotospagina">
+
 ## Metodología First
 ÁGIL: Todos los días por el canal de comunicación asignado, comentar a primer hora del día en que estuviste trabajando, con que estas ahora y con que vas a estar próximamente y si algo te esta bloqueando.    
 Trello: El primer paso es tomar el trello de ecommerce como referencia, y armar un trello con todos los puntos de este trabajo. Antes de arrancar a codear validarlo con staff.    
@@ -14,13 +16,10 @@ La estructura del proyecto queda a tu criterio, recomendamos separar el front y 
 Generalmente es más conveniente arrancar desde el backend hacia el front end.
 
 ## Backend
-Primeramente vamos a crear una base de datos sql con el nombre "propiedades"
-```
-createdb propiedades
-```
-Desarrollar una API que permita: crear, modificar, borrar y listar todas las propiedades (inmuebles, no propiedades de un objeto xD).
+Primeramente vamos a crear una base de datos utilizando Firebase
+Desarrollar una API que permita: crear, modificar, borrar y listar todas las propiedades (inmuebles).
 
-Además, se tienen que poder visualizar todas las propiedades, y ordenarlas por precio/nombre y filtrarlas por ubicación y por categoría.
+Además, se tienen que poder visualizar todas las propiedades, y ordenarlas por categoría.
 
 Las propiedades van a contar con:
 - **nombre**: direccion de la propiedad (ej: Castillo 1332)
@@ -51,11 +50,9 @@ Queremos una lista simple de propiedades con un sidebar a la izquierda para los 
 Al hacer click en un item aparezca un modal con sus datos cargados como input, el modal tiene que tener dos botones, unos para guardar ediciones a la información, otro para borrar el inmueble.
 Si queremos agregar una propiedad deberia haber un boton de agregar que abra el mismo modal de edicion pero con los campos vacios.
 
-### Filtros
-Vamos a generar un filtro por barrios (propiedad "location"), y un metodo de ordenamiento por precio.
-Los barrios van a ser una lista y si haces click en uno deberia limitar la lista a los que tengan esa location.
-El ordenamiento por precio solo los va a mostrar por menor/mayor segun corresponda.
-Vamos a tener otro filtro por categorías para poder mostrar propiedades solamente de "x" categoría.
+
+<img src="public/pantalla01.png" alt="fotospagina">
+
 
 ## Conclusiones
 Creo que ya se va entendiendo la idea del trabajo en general, si queda algún punto que no se haya cubierto con las consignas, lo dejamos a su sentido común de usario, hacerlo de una manera adecuada, para lograr una buena experencia en la navegación y proposito de la app.
@@ -67,9 +64,8 @@ Recuerden no trabajar el problema como un todo si no ir avanzando de a poco.
 Mucha suerte y no olviden consultarnos cualquier duda.
 
 ## Bonus Track
-- Que tenga tests, tanto en el front como en el back.
 - Que sea responsive
-- Que este dockerizado
+
 
 ------------
 
